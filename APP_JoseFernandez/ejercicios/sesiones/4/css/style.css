@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cabecera{
+    align-items: center;
+    text-align: center;
+}
+
+.contenido{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario{
+    width: 40%;
+    height: 300px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 3px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+}
+
+label{
+    margin: 10px;
+}
+
+.usuario{
+    margin: 10px;
+}
+
+.contraseña{
+    margin: 10px;
+}
+
+.boton{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.error{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.bien{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
